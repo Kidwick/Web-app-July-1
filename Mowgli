@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mowgli Website</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="hero">
+      <h1>Welcome to Mowgli's World</h1>
+      <p>Explore the adventures of Mowgli, the jungle boy.</p>
+      <a href="#" class="btn">Learn More</a>
+    </section>
+
+    <section class="about">
+      <h2>About Mowgli</h2>
+      <img src="mowgli.jpg" alt="Mowgli" class="profile-pic">
+      <p>Mowgli is a young boy who was raised in the jungle by a pack of wolves. He has learned to survive and thrive in the wild, forming strong bonds with various jungle animals. Join Mowgli on his exciting journey through the jungle and discover the true meaning of family and friendship.</p>
+    </section>
+
+    <section class="gallery">
+      <h2>Gallery</h2>
+      <div class="image-grid">
+        <img src="mowgli1.jpg" alt="Mowgli 1" class="gallery-img">
+        <img src="mowgli2.jpg" alt="Mowgli 2" class="gallery-img">
+        <img src="mowgli3.jpg" alt="Mowgli 3" class="gallery-img">
+        <img src="mowgli4.jpg" alt="Mowgli 4" class="gallery-img">
+      </div>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Mowgli Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
