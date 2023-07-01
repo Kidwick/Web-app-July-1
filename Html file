@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Human Website</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="hero">
+      <h1>Welcome to my Human Website</h1>
+      <p>Discover the fascinating world of humans.</p>
+      <a href="#" class="btn">Learn More</a>
+    </section>
+
+    <section class="about">
+      <h2>About Me</h2>
+      <img src="human.jpg" alt="Human" class="profile-pic">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at elit gravida, finibus magna eu, aliquam orci. Integer eu lobortis nisi. Nulla facilisi. Sed consectetur tortor vel erat finibus blandit. Nam quis ultrices lorem, sit amet ultrices justo.</p>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Communication</li>
+        <li>Problem Solving</li>
+        <li>Teamwork</li>
+        <li>Adaptability</li>
+      </ul>
+    </section>
+
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Human Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation bar styles */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero section styles */
+.hero
+
